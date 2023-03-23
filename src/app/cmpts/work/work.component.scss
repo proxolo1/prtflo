@@ -1,0 +1,46 @@
+.work{
+    position: absolute;
+    color: white;
+    top: 0;
+}
+.work-title{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 4vw;
+    letter-spacing: 2.6vw;
+    font-family: 'Rajdhani', sans-serif;
+    padding:2vw;
+}
+.footer-menu.show {
+    opacity: 1;
+}
+.footer-menu {
+    z-index: 100;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    bottom: 15vh;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: .4s all ease-in-out;
+}.footer-menu .menu-items {
+    padding: 0;
+    margin: 0;
+}.footer-menu .menu-item {
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.2vw;
+    text-indent: 0.2vw;
+    font-size: 1vw;
+    opacity: .5;
+    padding-right: 4vw;
+    padding-left: 4vw;
+    user-select: none;
+}
+
+.menu-item:hover{
+    opacity: 1;
+}
